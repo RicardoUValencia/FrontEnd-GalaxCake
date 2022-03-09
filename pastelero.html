@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pasteleria CAKE</title>
+            <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+            <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&amp;display=swap" rel="stylesheet">
+    <style>
+      A {text-decoration: none;}
+      * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #31B7B4
+        }
+
+        h2 {
+            font-family: lobster;
+            font-size: 25px;
+            }
+        h4  {
+            text-align: center;
+            color:black;
+            font-family: "Copperplate", fantasy;
+            font-size: 30px;
+            }   
+        footer {
+            background-color: #e4c560;
+            padding: 5px;
+            text-align: center;
+            color: white;
+            }
+
+        .header {
+            padding: 5px;
+            text-align: center;
+            background: #51c4b1;
+            color: white; }
+        .title {
+            text-align: center;
+            color: black; 
+            font-family: 'Luckiest Guy', cursive;
+            font-size: 50px;
+            }        
+        .chef { 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 10%;
+            color: #51d3a8;
+            text-align: left;
+        }
+        .container {
+            position: relative;
+            text-align: center;
+            color: black; 
+            font-family: 'Luckiest Guy', cursive;
+            font-size: 80px;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .cliente-container {
+            align-items: center;
+            justify-content: center;
+        }
+        .menu-container {
+            text-align: center;
+        }
+
+        .menu-text {
+            display: block;
+            color: black;
+            font-weight: bold;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 25px;
+        }
+
+        .sub-title {
+            position: relative;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 35px;
+            font-family: "Copperplate", fantasy;
+        }
+        .sub-title2 {
+            position: relative;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 20px;
+            font-family: "Copperplate", fantasy;
+        }
+        .form-container {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50em;
+            height: 35em;
+        }
+        .input {
+            border: 0.1em solid black;
+            border-radius: 0.3em;
+            width: 34em;
+            height: 2em;
+            margin-top: 1em;
+            margin-left: 1em;
+        }
+        .boton {
+            background-color: #b14d2f;
+            width: 24em;
+            height: 2em;
+            color: white;
+            border-radius: 0.3em;
+            font-size: 20px;
+            border: 0;
+            cursor: pointer;
+            margin-left: auto;
+            margin-right: auto;
+}
+             
+    </style>
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="./GalaxCake.png" alt="Logo CAKE">
+        <h2>Sabor y calidad</h2>
+    </div>
+    <div class="container">
+        <img width="100%" src="./Pastel.png" alt="RealCake">
+        <div class="centered">Ricos Pasteles</div>
+      </div>
+    <h3 class="title">MENÚ</h3>
+    <div class="cliente-container">
+        <div class="menu-container">
+          <p class="sub-title">Sabores</p>
+          <ul style="list-style: none;">
+            <li class="menu-text">Chocolate ....................... $189</li>
+            <li class="menu-text">Tres leches ....................... $235</li>
+            <li class="menu-text">Trufa ........................... $200</li>
+            <li class="menu-text">Frutos rojos ..................... $250</li>
+          </ul>
+          <p class="sub-title">Adornos</p>
+          <ul style="list-style: none;">
+            <li class="menu-text">Chispitas de chocolate .... + $15</li>
+            <li class="menu-text">Crema de mantequilla ..... + $37</li>
+            <li class="menu-text">Merengue ................ + $20</li>
+          </ul>
+    <h4 class="title">Realice su pedido</h4>
+    <div class="form-container"> 
+        <div>
+            <input class="input" type="text" name="nombreCliente" id="nombreCliente" placeholder="Nombre Completo">
+            <input class="input" type="tel" name="telefonoCliente" id="telefonoCliente" placeholder="Telefono" maxlength="10">
+            <input class="input" type="email" name="emailCliente" id="emailCliente" placeholder="Correo Electrónico">
+            <input class="input" type="text" name="descripcionPastel" id="descripcionPastel" placeholder="Descripción general del pastel">
+            <input class="input" type="text" name="direccionCliente" id="direccionCliente" placeholder="Direccion">
+          </div>
+          <p class="sub-title2">Sabores</p>
+          <div>
+            <div>
+              <label for="Chocolate">Chocolate</label>
+              <input type="checkbox" name="Chocolate" id="Chocolate">
+            </div>
+            <div>
+              <label for="Tresleches">Tres leches</label>
+              <input type="checkbox" name="Tresleches" id="TresLeches">
+            </div>
+            <div>
+              <label for="Fresa">Trufa</label>
+              <input type="checkbox" name="Fresa" id="Fresa">
+            </div>
+            <div>
+              <label for="Frutosrojos">Frutos rojos</label>
+              <input type="checkbox" name="FrutosRojos" id="FrutosRojos">
+            </div>
+          </div>
+          <p class="sub-title2">Adornos</p>
+          <div>
+            <div>
+              <label for="Chispitas">Chispitas de chocolate</label>
+              <input type="checkbox" name="Chispitas" id="Chispitas">
+            </div>
+            <div>
+              <label for="Crema">Crema de mantequilla</label>
+              <input type="checkbox" name="Crema" id="Crema">
+            </div>
+            <div>
+              <label for="Merengue">Merengue</label>
+              <input type="checkbox" name="Merengue" id="Merengue">
+              <p> </p>
+            </div>
+          </div>
+          <button class="boton" type="submit">Hacer pedido</button>
+        
+      </div>
+    </div>
+    <a href="./pastelero.html">
+        <img class="chef" alt="gorro de chef" src="./Chef.jpg">
+        <h4><strong>Ver pedidos y stock</strong></h4>
+    </a>
+   <footer>
+        <p>Avenida de la luz #275 </p>
+        <p>Teléfono 4365667 ext. 713</p>
+        <p>Hoario de atencón: 7:00 a.m. - 9:00 p.m.</p>
+    </footer>
+    </div>
+</body>
+</html>
