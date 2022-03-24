@@ -1,2 +1,2 @@
 # FrontEnd-GalaxCake
-<h3>Prácticas: Pasteleria</h3>
+<h3> Prácticas: Pasteleria </h3>
